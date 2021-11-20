@@ -96,3 +96,7 @@ async function main() {
     }
   }
 }
+
+addEventListener("click", () => {
+  $("audio").play();
+});
